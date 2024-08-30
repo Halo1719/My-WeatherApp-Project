@@ -60,8 +60,8 @@ main {
   display: flex;
 }
 .weather-body-icon {
-  font-size: 44px;
-  margin-top: 15px;
+  width: 88px;
+  height: 88px;
 }
 .weather-body-temp {
   font-size: 88px;

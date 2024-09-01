@@ -1,21 +1,28 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url(../media/sky2.jpg);
+  background-size: cover;
   font-family: "Roboto", sans-serif;
 }
 a {
-  color: #885df1;
+  color: rgb(227, 104, 112);
+  font-weight: bold;
 }
 .weather-body {
-  background: #ffff;
+  background-color: #ffffff05;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(15px);
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border: 1px solid rgb(248, 246, 254);
   border-radius: 16px;
   padding: 30px;
 }
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid rgb(248, 246, 254);
   padding: 0 0 30px 0;
+}
+main {
+  color: #f9f7fe;
 }
 .weather-body-city {
   margin: 0;
@@ -28,7 +35,7 @@ header {
 }
 .weather-body-data {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(248, 246, 254);
   line-height: 24px;
   font-weight: 500;
 }
@@ -41,7 +48,7 @@ header {
   padding: 15px 20px;
 }
 .search-form-button {
-  background: #885df1;
+  background: rgb(227, 104, 112);
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -72,13 +79,16 @@ main {
   margin-top: 6px;
   font-size: 28px;
 }
+.weather-body-data {
+  color: rgb(248, 246, 254, 0.8);
+}
 .weather-body-data strong {
-  color: #e85313;
+  color: rgb(227, 104, 112);
 }
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(0, 0, 0, 0.6);
 }
